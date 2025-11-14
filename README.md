@@ -113,9 +113,21 @@ npm start
 
 이 프로젝트는 공공데이터를 활용한 개인/교육용 프로젝트입니다.
 
+## 🚀 Vercel 배포
+
+Vercel에 배포하는 방법은 [VERCEL_DEPLOY.md](./VERCEL_DEPLOY.md) 파일을 참고하세요.
+
+**중요**: Vercel에서는 `.env.local` 파일이 자동으로 배포되지 않습니다. Vercel 대시보드에서 환경변수를 직접 설정해야 합니다.
+
+### 필수 환경변수
+
+- `NEXT_PUBLIC_API_BASE`: `https://apis.data.go.kr/B551177/passgrAnncmt`
+- `NEXT_PUBLIC_API_KEY`: 공공데이터포털에서 발급받은 API 키
+
 ## 🔗 참고 링크
 
 - [공공데이터포털](https://www.data.go.kr/)
 - [인천국제공항공사](https://www.airport.kr/)
+- [Vercel 배포 가이드](./VERCEL_DEPLOY.md)
 
 
